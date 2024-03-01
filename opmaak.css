@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 200px;
+    background-color: #333;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    padding-top: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    padding: 10px;
+    text-align: center;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+
+}
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+    .content {
+        margin-left: 0;
+    }
+}
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    width: 40%;
+    margin-left: 205px;
+    margin-top:40px;
+
+}
+button.button1 {
+  margin-left: 20%;
+}
